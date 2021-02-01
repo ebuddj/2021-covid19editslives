@@ -197,7 +197,7 @@ class App extends Component {
                 fontColor:'#444',
                 fontSize:16,
                 fontStyle:'bold',
-                suggestedMax:10,
+                suggestedMax:160,
                 suggestedMin:0
               }
             },{
