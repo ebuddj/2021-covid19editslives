@@ -1,6 +1,6 @@
 # 2021-covid19editslives
 
-**Live demo** https://ebuddj.github.io/2020-covid19editslives/
+**Live demo** https://ebuddj.github.io/2021-covid19editslives/
 
 ## Share of Covid-19 edits and lives on News Exchange (EBU)
 
