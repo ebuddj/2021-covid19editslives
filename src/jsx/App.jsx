@@ -302,7 +302,7 @@ class App extends Component {
       path_prefix = './';
     }
     else {
-      path_prefix = 'https://raw.githubusercontent.com/ebuddj/2021-covid19stories/master/public/';
+      path_prefix = 'https://raw.githubusercontent.com/ebuddj/2021-covid19stories/main/public/';
     }
     return (
       <div className={style.app} ref={this.appRef}>
