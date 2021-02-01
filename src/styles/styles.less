@@ -1,0 +1,85 @@
+@import 'basics.less';
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.app {
+  display: none;
+  margin: auto auto;
+  width: 95%;
+  p {
+    margin: 0 0 10px 0;
+  }
+  button {
+    appearance: none;
+    border: 1px solid #000;
+    margin: 0 2px;
+    outline: none;
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+  .date {
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+    top: 20px;
+    z-index: 2;
+    width: 100%;
+  }
+  .legend {
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+    left: 130px;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+    .legend_value {
+      display: inline-block;
+      width: 110px;
+      text-align: right;
+    }
+    .logo {
+      width: 300px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    .edits {
+      color: #1b4098;
+    }
+    .lives {
+      color: #00AE66;
+    }
+    .total {
+      color: #444;
+      display:none;
+    }
+  }
+  #line_chart {
+    clear: both;
+    height: 100%;
+    margin: auto auto;
+    padding-top: 5px;
+    width: 100%;
+  }
+  .line_chart_meta {
+    bottom: 60px;
+    color: #FF9900;
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    .explainer {
+      font-size: 24px;
+    }
+  }
+}
