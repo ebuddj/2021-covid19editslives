@@ -21,6 +21,7 @@ const month_names = {
   '11': 'November',
   '12': 'December'
 };
+let interval;
 
 class App extends Component {
   constructor(props) {
@@ -51,7 +52,7 @@ class App extends Component {
 
   }
   componentWillUnMount() {
-
+    clearInterval(interval);
   }
   // shouldComponentUpdate(nextProps, nextState) {}
   // static getDerivedStateFromProps(props, state) {}
@@ -242,7 +243,7 @@ class App extends Component {
 
       function updateChart() {
         // Update chart.
-        let interval = setInterval(() => {
+        interval = setInterval(() => {
           let values = data.values.shift();
           self.setState((state, props) => ({
             date:values.date,
